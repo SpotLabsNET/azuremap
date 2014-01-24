@@ -17,9 +17,11 @@ echo "[saving map files back to github gist]"
 copy .\azuremap.geojson ..\azuremap.gist
 copy .\azuremap.topojson ..\azuremap.gist
 copy .\region_meta.py ..\azuremap.gist
+
 pushd ..\azuremap.gist
 git commit -a -m "regenerated from source"
 git push gist master
+echo "Consider 'git pull gist master' if there are conflicts."
 popd
 
 echo "[ALL DONE]"
