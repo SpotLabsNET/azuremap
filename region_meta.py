@@ -1,8 +1,21 @@
 from region import *
 
-### MAKE CHANGES TO THE LIST BELOW AS DATA CENTER INFORMATION EVOLVES ###
-# Data centers belong to a Region. Regions belong to a Geo.
-# The names of Regions and Geos are mostly GUESSES for the not-yet-production data centers.
+###
+### PULL REQUESTS ACCEPTED HERE:
+###               https://github.com/codingoutloud/azuremap         
+###
+#########################################################################
+###      UPDATE THE LIST BELOW AS DATA CENTER INFORMATION EVOLVES     ###
+###  Any change (pull request) happens in the actual GitHub repo at:  ###
+###               https://github.com/codingoutloud/azuremap           ###
+#########################################################################
+# In the Windows Azure terminology relating to data centers, we have:
+# - Data centers belong to a Region. 
+# - Regions belong to a Geo.
+# - A Geo is a significant geographic area serviced by one or more Regions.
+#
+# The names of Regions and Geos are mostly GUESSES while pre-production.
+#
 regions = [
     # Geo, Region, Location (city), Failover Region, Scope, Status
     Region("Asia Pacific", "East Asia", "Hong Kong", "SE Asia"),
