@@ -34,5 +34,5 @@ regions = [
     Region("United States", "US East", "Bristow, Virginia, USA", "US West"),
     Region("United States", "US West", "San Francisco, California, USA", "US East"),
     # fake - for testing only: 
-    Region("United States", "Boston", "Needham, MA, USA", "Europe North"),
+    # Region("United States", "Boston", "Needham, MA, USA", "Europe North"),
 ]
