@@ -271,6 +271,24 @@
          "status": "Production"
       }
    },
+   {
+      "type": "Feature",
+      "id": "Boston",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -71.2360534668, 42.2813110352 ]
+      },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "Boston",
+         "location": "Needham, MA, USA",
+         "failover_region": "Europe North",
+         "scope": "All Windows Azure Services",
+         "status": "Production"
+      }
+   },
 
    {
       "type": "Feature",
@@ -525,6 +543,23 @@
       {
          "region": "US West",
          "failover_region": "US East"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Boston",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ -71.2360534668, 42.2813110352 ],
+            [ -6.24827003479, 53.3480682373 ]
+         ]
+      },
+      "properties":
+      {
+         "region": "Boston",
+         "failover_region": "Europe North"
       }
    }
    ]
