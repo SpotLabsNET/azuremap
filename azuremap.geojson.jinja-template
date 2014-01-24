@@ -1,0 +1,50 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+{% for r in regions %}
+   {
+      "type": "Feature",
+      "id": "{{r.region}}",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ {{r.longitude}}, {{r.latitude}} ]
+      },
+      "properties":
+      {
+         "geo": "{{r.geo}}",
+         "region": "{{r.region}}",
+         "location": "{{r.location}}",
+         "failover_region": "{{r.failover_region}}",
+         "scope": "{{r.scope}}",
+         "status": "{{r.status}}"
+      }
+   },
+{% endfor %}
+
+{% for fo in failover_regions %}
+   {
+      "type": "Feature",
+      "id": "{{fo.region}}",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ {{fo.region_longitude}}, {{fo.region_latitude}} ],
+            [ {{fo.fo_region_longitude}}, {{fo.fo_region_latitude}} ]
+         ]
+      },
+      "properties":
+      {
+         "region": "{{fo.region}}",
+         "failover_region": "{{fo.fo_region}}"
+      }
+{% if fo is sameas(failover_regions|last) %}
+   }
+{% else %}
+   },
+{% endif %}
+{% endfor %}
+   ]
+}
+
