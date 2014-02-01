@@ -3,7 +3,25 @@
    "features": [
    {
       "type": "Feature",
-      "id": "SE Asia",
+      "id": "Asia Pacific East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 114.186965942, 22.3361568451 ]
+      },
+      "properties":
+      {
+         "geo": "Asia Pacific",
+         "region": "Asia Pacific East",
+         "location": "Hong Kong",
+         "failover_region": "Asia Pacific Southeast",
+         "scope": "('All Windows Azure Services',)",
+         "status": "Production"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific Southeast",
       "geometry":
       {
          "type": "Point",
@@ -12,9 +30,9 @@
       "properties":
       {
          "geo": "Asia Pacific",
-         "region": "SE Asia",
+         "region": "Asia Pacific Southeast",
          "location": "Singapore",
-         "failover_region": "East Asia",
+         "failover_region": "Asia Pacific East",
          "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
@@ -254,6 +272,40 @@
       }
    },
 
+   {
+      "type": "Feature",
+      "id": "Asia Pacific East",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ 114.186965942, 22.3361568451 ],
+            [ 103.820533752, 1.32199585438 ]
+         ]
+      },
+      "properties":
+      {
+         "region": "Asia Pacific East",
+         "failover_region": "Asia Pacific Southeast"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific Southeast",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ 103.820533752, 1.32199585438 ],
+            [ 114.186965942, 22.3361568451 ]
+         ]
+      },
+      "properties":
+      {
+         "region": "Asia Pacific Southeast",
+         "failover_region": "Asia Pacific East"
+      }
+   },
    {
       "type": "Feature",
       "id": "Shanghai China",
