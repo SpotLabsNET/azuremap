@@ -3,8 +3,7 @@ azuremap
 
 This project builds a reusable map of the Windows Azure data center regions around the world.
 
-The maps are currently generated to two formats: GeoJSON (azuremap.geojson) and TopoJSON (azuremap.topojson). Both of these formats are designed to describe maps. With a little help, it is also possible to render them directly in a Web Browser (such as in [this blog post]()). 
-
+The maps are currently generated to two formats: GeoJSON (azuremap.geojson) and TopoJSON (azuremap.topojson). Both of these map formats are open standards. With a little help, they can be rendered directly in a Web Browser (such as in [this blog post](http://blog.codingoutloud.com/2014/02/01/mapping-windows-azure-4-years-after-full-general-availability/) and this [GitHub Gist](https://gist.github.com/codingoutloud/8590311)). 
 
 
 terminology
