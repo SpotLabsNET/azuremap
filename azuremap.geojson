@@ -3,24 +3,6 @@
    "features": [
    {
       "type": "Feature",
-      "id": "East Asia",
-      "geometry":
-      {
-         "type": "Point",
-         "coordinates": [ 114.186965942, 22.3361568451 ]
-      },
-      "properties":
-      {
-         "geo": "Asia Pacific",
-         "region": "East Asia",
-         "location": "Hong Kong",
-         "failover_region": "SE Asia",
-         "scope": "All Windows Azure Services",
-         "status": "Production"
-      }
-   },
-   {
-      "type": "Feature",
       "id": "SE Asia",
       "geometry":
       {
@@ -33,7 +15,7 @@
          "region": "SE Asia",
          "location": "Singapore",
          "failover_region": "East Asia",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
    },
@@ -51,8 +33,8 @@
          "region": "Shanghai China",
          "location": "Shanghai China",
          "failover_region": "Beijing China",
-         "scope": "All Windows Azure Services",
-         "status": "Public Preview"
+         "scope": "('All Windows Azure Services',)",
+         "status": "Preview"
       }
    },
    {
@@ -69,8 +51,8 @@
          "region": "Beijing China",
          "location": "Beijing, China",
          "failover_region": "Shanghai China",
-         "scope": "All Windows Azure Services",
-         "status": "Public Preview"
+         "scope": "('All Windows Azure Services',)",
+         "status": "Preview"
       }
    },
    {
@@ -87,7 +69,7 @@
          "region": "Australia East",
          "location": "Sydney, New South Wales, Australia",
          "failover_region": "Australia SE",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Announced"
       }
    },
@@ -105,7 +87,7 @@
          "region": "Australia SE",
          "location": "Melbourne, Victoria, Australia",
          "failover_region": "Australia East",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Announced"
       }
    },
@@ -123,8 +105,8 @@
          "region": "Brazil South",
          "location": "Brazil",
          "failover_region": "US South Central",
-         "scope": "All Windows Azure Services",
-         "status": "Public Preview"
+         "scope": "('All Windows Azure Services',)",
+         "status": "Preview"
       }
    },
    {
@@ -141,7 +123,7 @@
          "region": "Europe West",
          "location": "Amsterdam, Netherlands",
          "failover_region": "Europe North",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
    },
@@ -159,7 +141,7 @@
          "region": "Europe North",
          "location": "Dublin, Ireland",
          "failover_region": "Europe West",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
    },
@@ -177,7 +159,7 @@
          "region": "Japan East",
          "location": "Tokyo, Japan",
          "failover_region": "Japan West",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Announced"
       }
    },
@@ -195,7 +177,7 @@
          "region": "Japan West",
          "location": "Kansai, Japan",
          "failover_region": "Japan East",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Announced"
       }
    },
@@ -213,7 +195,7 @@
          "region": "US North Central",
          "location": "Chicago, IL, USA",
          "failover_region": "US South Central",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
    },
@@ -231,7 +213,7 @@
          "region": "US South Central",
          "location": "San Antonio, TX, USA",
          "failover_region": "US North Central",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
    },
@@ -249,7 +231,7 @@
          "region": "US East",
          "location": "Bristow, Virginia, USA",
          "failover_region": "US West",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
    },
@@ -267,45 +249,29 @@
          "region": "US West",
          "location": "San Francisco, California, USA",
          "failover_region": "US East",
-         "scope": "All Windows Azure Services",
+         "scope": "('All Windows Azure Services',)",
+         "status": "Production"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Boston",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -71.2360534668, 42.2813110352 ]
+      },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "Boston",
+         "location": "Needham, MA, USA",
+         "failover_region": "Europe North",
+         "scope": "('All Windows Azure Services',)",
          "status": "Production"
       }
    },
 
-   {
-      "type": "Feature",
-      "id": "East Asia",
-      "geometry":
-      {
-         "type": "LineString",
-         "coordinates": [
-            [ 114.186965942, 22.3361568451 ],
-            [ 103.820533752, 1.32199585438 ]
-         ]
-      },
-      "properties":
-      {
-         "region": "East Asia",
-         "failover_region": "SE Asia"
-      }
-   },
-   {
-      "type": "Feature",
-      "id": "SE Asia",
-      "geometry":
-      {
-         "type": "LineString",
-         "coordinates": [
-            [ 103.820533752, 1.32199585438 ],
-            [ 114.186965942, 22.3361568451 ]
-         ]
-      },
-      "properties":
-      {
-         "region": "SE Asia",
-         "failover_region": "East Asia"
-      }
-   },
    {
       "type": "Feature",
       "id": "Shanghai China",
@@ -525,6 +491,23 @@
       {
          "region": "US West",
          "failover_region": "US East"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Boston",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ -71.2360534668, 42.2813110352 ],
+            [ -6.24827003479, 53.3480682373 ]
+         ]
+      },
+      "properties":
+      {
+         "region": "Boston",
+         "failover_region": "Europe North"
       }
    }
    ]

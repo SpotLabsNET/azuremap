@@ -20,12 +20,12 @@ class FailoverRegion:
 
 
 class Region:
-    def __init__(self, geo, region, location, failover_region, scope=scope_default, status=status_default):
+    def __init__(self, geo, region, location, failover_region, status=status_default):
         self.geo = geo
         self.region = region
         self.location = location
         self.failover_region = failover_region
-        self.scope = scope
+        self.scope = scope_default, # needs repair later when we include CDN
         self.status = status
         self.latitude, self.longitude = self.geocode()
 
