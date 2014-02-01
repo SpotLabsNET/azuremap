@@ -26,4 +26,4 @@ The technology involved in the processing includes use of the Bing Maps Geocoder
 
 The script cannot be run from "anywhere" since it includes updating github repos (to which the general public will not have direct push access). Here is an example of the script running:
 
-
+![Output from running the AzureMap build.ps1 script](https://raw.github.com/codingoutloud/azuremap/master/azuremap-build-output.png)
