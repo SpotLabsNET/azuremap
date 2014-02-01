@@ -1,4 +1,5 @@
 echo "[BEGIN]"
+Get-Date
 
 python generate_geojson.py
 echo "[writing] azuremap.topojson"
@@ -24,4 +25,5 @@ git push gist master
 echo "Consider 'git pull gist master' if there are conflicts."
 popd
 
+Get-Date
 echo "[ALL DONE]"

@@ -1,12 +1,30 @@
 azuremap
 ========
 
-Generates a map of Windows Azure data centers around the world in two formats: GeoJSON (azuremap.geojson) and TopoJSON (azuremap.topojson).
+This project builds a reusable map of the Windows Azure data center regions around the world.
 
-Both of these formats are designed to describe maps. With a little help, it is also possible to render them directly in a Web Browser. 
+The maps are currently generated to two formats: GeoJSON (azuremap.geojson) and TopoJSON (azuremap.topojson). Both of these formats are designed to describe maps. With a little help, it is also possible to render them directly in a Web Browser (such as in [this blog post]()). 
 
-The technology involved in the processing  includes use of the Bing Maps Geocoder, some custom Python code, a Jinja template, the Node.js topojson project, and a PowerShell script to build it all. 
 
-For more info on the processing, please see this more detailed blog post: http://blog.codingoutloud.com/
 
-The information about Windows Azure data centers is a __work in progress__ and will change as I learn more. I built the map using only published information, but not all the details have yet been made public, so I made some guesses. For the 8 regions already in production, the data supplied should be reliable. For any that are pre-production, there will be some guesses around exact Region and Geo names, and sometimes even some questions around exactly where the data centers are being built (I try to determine the correct city - no more detailed than that though).
+terminology
+-----------
+
+The azuremap project copies the terminology used in the [Windows Azure Trust Center](http://www.windowsazure.com/en-us/support/trust-center/privacy/).
+
+There are three core concepts: the __*data center*__, the __*region*__, and the __*geo*__:
+
+- A *data center* is part of a region. Each *region* comprises one or more data centers. Within a region, data centers are assumed to be "near" each other (think "same city").
+- A region belongs to a *geo*. A Geo is a significant geographic area comprising one or more Regions.
+
+__NOTE:__ The names of regions and geos, and the locations of regions, are mostly GUESSES while pre-production.
+
+
+generation technology
+-----------
+
+The technology involved in the processing includes use of the Bing Maps Geocoder, some custom Python code, a Jinja template, the Node.js topojson project, and a PowerShell script to build it all. 
+
+The script cannot be run from "anywhere" since it includes updating github repos (to which the general public will not have direct push access). Here is an example of the script running:
+
+
