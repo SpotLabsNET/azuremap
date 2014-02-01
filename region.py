@@ -25,7 +25,7 @@ class Region:
         self.region = region
         self.location = location
         self.failover_region = failover_region
-        self.scope = scope_default, # needs repair later when we include CDN
+        self.scope = scope_default # needs repair later when we include CDN
         self.status = status
         self.latitude, self.longitude = self.geocode()
 
