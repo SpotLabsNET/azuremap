@@ -13,7 +13,7 @@ The azuremap project copies the terminology used in the [Windows Azure Trust Cen
 
 There are three core concepts: the __*data center*__, the __*region*__, and the __*geo*__:
 
-- A *data center* is part of a region. Each *region* comprises one or more data centers. Within a region, data centers are assumed to be "near" each other (think "same city").
+- A *data center* is part of a region. Each *region* comprises one or more data centers. Within a region, data centers are assumed to be "near" each other (think "same city, or perhaps neighboring cities").
 - A region belongs to a *geo*. A Geo is a significant geographic area comprising one or more Regions.
 
 __NOTE:__ The names of regions and geos, and the locations of regions, are mostly GUESSES while pre-production.

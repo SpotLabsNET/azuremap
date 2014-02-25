@@ -14,6 +14,9 @@ echo "[saving back to azuremap github repo]"
 git commit -a -m "update"
 git push 
 
+echo "[saving back to blob storage]"
+python upload.py
+
 echo "[saving map files back to github gist]"
 copy .\azuremap.geojson ..\azuremap.gist
 copy .\azuremap.topojson ..\azuremap.gist
