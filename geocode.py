@@ -40,7 +40,7 @@ def geocode_try(location):
 # Wraps real geocoder (geocode_try) to make retries easier
 def geocode(location):
     max_try_count = 4
-    seconds_delay_between_tries = 0.5
+    seconds_delay_between_tries = 2.5
     try_count = 1
 
     for i in range(max_try_count):
