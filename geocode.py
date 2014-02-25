@@ -51,7 +51,7 @@ def geocode(location):
                 raise
             else:
                 try_count += 1
-                print("Failed to geocode '%s', will retry %d more time(s)", location, max_try_count-try_count)
+                print("Failed to geocode '%s', will retry %d more time(s)" % (location, max_try_count-try_count))
                 sleep(seconds_delay_between_tries)
 
 

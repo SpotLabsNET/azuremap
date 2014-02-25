@@ -2,7 +2,7 @@ from azure.storage import *
 
 storage_account_name = 'azuremap' # storage key in file in parent directory called <storage_account_name>.storagekey
 storage_account_key = open(r'../%s.storagekey' % storage_account_name, 'r').read() 
-//print(storage_account_key)
+#print(storage_account_key)
 
 blob_service = BlobService(account_name=storage_account_name, account_key=storage_account_key)
 storage_container_name = 'maps'
