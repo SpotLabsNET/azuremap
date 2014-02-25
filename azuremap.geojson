@@ -169,16 +169,16 @@
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ 139.808944702, 35.6832084656 ]
+         "coordinates": [ 139.644607544, 35.8659133911 ]
       },
       "properties":
       {
          "geo": "Japan",
          "region": "Japan East",
-         "location": "Tokyo, Japan",
+         "location": "Saitama, Japan",
          "failover_region": "Japan West",
          "scope": "All Windows Azure Services",
-         "status": "Announced"
+         "status": "Production"
       }
    },
    {
@@ -196,7 +196,7 @@
          "location": "Osaka, Japan",
          "failover_region": "Japan East",
          "scope": "All Windows Azure Services",
-         "status": "Announced"
+         "status": "Production"
       }
    },
    {
@@ -432,7 +432,7 @@
       {
          "type": "LineString",
          "coordinates": [
-            [ 139.808944702, 35.6832084656 ],
+            [ 139.644607544, 35.8659133911 ],
             [ 135.512908936, 34.677520752 ]
          ]
       },
@@ -450,7 +450,7 @@
          "type": "LineString",
          "coordinates": [
             [ 135.512908936, 34.677520752 ],
-            [ 139.808944702, 35.6832084656 ]
+            [ 139.644607544, 35.8659133911 ]
          ]
       },
       "properties":
