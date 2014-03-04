@@ -295,13 +295,13 @@
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ -78.6515426636, 37.5088043213 ]
+         "coordinates": [ -77.5457611084, 38.7326011658 ]
       },
       "properties":
       {
          "geo": "United States",
          "region": "US Gov-Virginia",
-         "location": "Virginia, USA",
+         "location": "Bristow, Virginia, USA",
          "failover_region": "US Gov-Iowa",
          "scope": "All Windows Azure Services",
          "status": "Preview"
@@ -571,7 +571,7 @@
          "type": "LineString",
          "coordinates": [
             [ -91.5265274048, 41.6578216553 ],
-            [ -78.6515426636, 37.5088043213 ]
+            [ -77.5457611084, 38.7326011658 ]
          ]
       },
       "properties":
@@ -587,7 +587,7 @@
       {
          "type": "LineString",
          "coordinates": [
-            [ -78.6515426636, 37.5088043213 ],
+            [ -77.5457611084, 38.7326011658 ],
             [ -91.5265274048, 41.6578216553 ]
          ]
       },
