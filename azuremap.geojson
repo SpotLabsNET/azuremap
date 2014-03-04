@@ -271,6 +271,42 @@
          "status": "Production"
       }
    },
+   {
+      "type": "Feature",
+      "id": "US Gov-Iowa",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -91.5265274048, 41.6578216553 ]
+      },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US Gov-Iowa",
+         "location": "Iowa, USA",
+         "failover_region": "US Gov-Virginia",
+         "scope": "All Windows Azure Services",
+         "status": "Preview"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US Gov-Virginia",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -78.6515426636, 37.5088043213 ]
+      },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US Gov-Virginia",
+         "location": "Virginia, USA",
+         "failover_region": "US Gov-Iowa",
+         "scope": "All Windows Azure Services",
+         "status": "Preview"
+      }
+   },
 
    {
       "type": "Feature",
@@ -525,6 +561,40 @@
       {
          "region": "US West",
          "failover_region": "US East"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US Gov-Iowa",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ -91.5265274048, 41.6578216553 ],
+            [ -78.6515426636, 37.5088043213 ]
+         ]
+      },
+      "properties":
+      {
+         "region": "US Gov-Iowa",
+         "failover_region": "US Gov-Virginia"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US Gov-Virginia",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ -78.6515426636, 37.5088043213 ],
+            [ -91.5265274048, 41.6578216553 ]
+         ]
+      },
+      "properties":
+      {
+         "region": "US Gov-Virginia",
+         "failover_region": "US Gov-Iowa"
       }
    }
    ]
