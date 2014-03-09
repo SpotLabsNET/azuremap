@@ -22,4 +22,4 @@ for blob in blobs:
     print(blob.url)
 
 # format for blobs is: <account>.blob.core.windows.net/<container>/<file>
-# example blob for us: pytool.blob.core.windows.net/pyfiles/clouds.jpeg
+# example blob for us: azuremap.blob.core.windows.net/maps/azuremap.geojson
