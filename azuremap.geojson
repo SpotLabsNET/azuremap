@@ -52,7 +52,7 @@
          "location": "Shanghai China",
          "failover_region": "Beijing China",
          "scope": "All Windows Azure Services",
-         "status": "Preview"
+         "status": "Production"
       }
    },
    {
@@ -70,7 +70,7 @@
          "location": "Beijing, China",
          "failover_region": "Shanghai China",
          "scope": "All Windows Azure Services",
-         "status": "Preview"
+         "status": "Production"
       }
    },
    {
