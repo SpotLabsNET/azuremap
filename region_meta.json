@@ -1,8 +1,8 @@
 [
     { "Geo" : "Asia Pacific", "Region": "Asia Pacific East", "Location": "Hong Kong", "Failover Region" : "Asia Pacific Southeast", "Status" : "Production" },
     { "Geo" : "Asia Pacific", "Region": "Asia Pacific Southeast", "Location": "Singapore", "Failover Region" : "Asia Pacific East", "Status" : "Production" },
-    { "Geo" : "Asia Pacific", "Region": "Shanghai China", "Location": "Shanghai China", "Failover Region" : "Beijing China", "Status" : "Preview" },
-    { "Geo" : "Asia Pacific", "Region": "Beijing China", "Location": "Beijing, China", "Failover Region" : "Shanghai China", "Status" : "Preview" },
+    { "Geo" : "Asia Pacific", "Region": "Shanghai China", "Location": "Shanghai China", "Failover Region" : "Beijing China", "Status" : "Production" },
+    { "Geo" : "Asia Pacific", "Region": "Beijing China", "Location": "Beijing, China", "Failover Region" : "Shanghai China", "Status" : "Production" },
     { "Geo" : "Australia", "Region": "Australia East", "Location": "Sydney, New South Wales, Australia", "Failover Region" : "Australia SE", "Status" : "Announced" },
     { "Geo" : "Australia", "Region": "Australia SE", "Location": "Melbourne, Victoria, Australia", "Failover Region" : "Australia East", "Status" : "Announced" },
     { "Geo" : "South America", "Region": "Brazil South", "Location": "Brazil", "Failover Region" : "US South Central", "Status" : "Preview" },
