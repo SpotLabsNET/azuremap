@@ -253,7 +253,7 @@
          "location": "Brazil",
          "failover_region": "US South Central",
          "scope": "All Windows Azure Services",
-         "status": "Preview"
+         "status": "Production"
       }
    },
    {
