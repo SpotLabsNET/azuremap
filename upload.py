@@ -5,11 +5,34 @@ storage_account_key = open(r'../%s.storagekey' % storage_account_name, 'r').read
 #print(storage_account_key)
 
 blob_service = BlobService(account_name=storage_account_name, account_key=storage_account_key)
+
+##
+## .../maps
+##
 storage_container_name = 'maps'
 blob_service.create_container(storage_container_name)
 blob_service.set_container_acl(storage_container_name, x_ms_blob_public_access='container')
 
 for file_name in [r'azuremap.geojson', r'azuremap.topojson']:
+	myblob = open(file_name, 'r').read()
+	blob_name = file_name
+	blob_service.put_blob(storage_container_name, blob_name, myblob, x_ms_blob_type='BlockBlob')
+	blob_service.set_blob_properties(storage_container_name, blob_name, x_ms_blob_content_type='application/json', x_ms_blob_cache_control='public, max-age=3600')
+
+# Show a blob listing which now includes the blobs just uploaded
+blobs = blob_service.list_blobs(storage_container_name)
+print("Directory listing of all blobs in container '%s'" % storage_container_name)
+for blob in blobs:
+    print(blob.url)
+
+##
+## .../apps
+##
+storage_container_name = 'apps'
+blob_service.create_container(storage_container_name)
+blob_service.set_container_acl(storage_container_name, x_ms_blob_public_access='container')
+
+for file_name in [r'../azuremap.js/bingmap-geojson-display.html', r'../azuremap.js/azuremap.bingmap-geojson-display.js']:
 	myblob = open(file_name, 'r').read()
 	blob_name = file_name
 	blob_service.put_blob(storage_container_name, blob_name, myblob, x_ms_blob_type='BlockBlob')
