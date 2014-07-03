@@ -14,18 +14,7 @@
          "geo": "United States",
          "region": "Atlanta",
          "location": "Atlanta, GA",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
@@ -41,18 +30,7 @@
          "geo": "United States",
          "region": "Seattle",
          "location": "Seattle, WA",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
@@ -68,18 +46,7 @@
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "Amsterdam, Netherlands",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
@@ -95,18 +62,7 @@
          "geo": "Europe",
          "region": "Frankfurt",
          "location": "Frankfurt, Germany",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
@@ -122,18 +78,7 @@
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "Milan, Italy",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
@@ -149,18 +94,7 @@
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "London, England",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
@@ -176,18 +110,7 @@
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "Madrid, Spain",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
@@ -203,18 +126,7 @@
          "geo": "Europe",
          "region": "Paris",
          "location": "Paris, France",
-         "cdn": "CDN at this location"
-         ,
-        "style": {
-            fillColor:'#669933',
-            fillOpacity:.8,
-            strokeColor:'red',
-            strokeWidth:6,
-            pointRadius:8
-        },
-
-                 "fillColor": "#eeffee",
-         "fillOpacity": 0.8
+         "cdn": "CDN only (not a full Azure region)"
       }
    },
 
