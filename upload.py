@@ -28,7 +28,7 @@ for blob in blobs:
 ##
 ## .../apps
 ##
-storage_container_name = 'apps'
+storage_container_name = 'apps' 
 blob_service.create_container(storage_container_name)
 blob_service.set_container_acl(storage_container_name, x_ms_blob_public_access='container')
 
@@ -36,7 +36,7 @@ for file_name in [r'bingmap-geojson-display.html', r'bingmap-geojson-display.js'
 	myblob = open(r'../azuremap.js/' + file_name, 'r').read()
 	blob_name = file_name
 	blob_service.put_blob(storage_container_name, blob_name, myblob, x_ms_blob_type='BlockBlob')
-	blob_service.set_blob_properties(storage_container_name, blob_name, x_ms_blob_content_type='application/json', x_ms_blob_cache_control='public, max-age=3600')
+	blob_service.set_blob_properties(storage_container_name, blob_name, x_ms_blob_content_type='text/html', x_ms_blob_cache_control='public, max-age=3600')
 
 # Show a blob listing which now includes the blobs just uploaded
 blobs = blob_service.list_blobs(storage_container_name)
