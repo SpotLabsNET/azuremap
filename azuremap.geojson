@@ -16,7 +16,15 @@
          "location": "Atlanta, GA",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
@@ -35,7 +43,15 @@
          "location": "Seattle, WA",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
@@ -54,7 +70,15 @@
          "location": "Amsterdam, Netherlands",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
@@ -73,7 +97,15 @@
          "location": "Frankfurt, Germany",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
@@ -92,7 +124,15 @@
          "location": "Milan, Italy",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
@@ -111,7 +151,15 @@
          "location": "London, England",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
@@ -130,7 +178,15 @@
          "location": "Madrid, Spain",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
@@ -149,7 +205,15 @@
          "location": "Paris, France",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },

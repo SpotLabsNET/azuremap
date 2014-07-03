@@ -17,7 +17,15 @@
          "location": "{{cdn.location}}",
          "cdn": "CDN at this location"
          ,
-         "fillColor": "#eeffee",
+        "style": {
+            fillColor:'#669933',
+            fillOpacity:.8,
+            strokeColor:'red',
+            strokeWidth:6,
+            pointRadius:8
+        },
+
+                 "fillColor": "#eeffee",
          "fillOpacity": 0.8
       }
    },
