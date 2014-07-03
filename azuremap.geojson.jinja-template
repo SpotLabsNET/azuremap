@@ -9,13 +9,16 @@
       {
          "type": "Point",
          "coordinates": [ {{cdn.longitude}}, {{cdn.latitude}} ]
-      },
+        },
       "properties":
       {
          "geo": "{{cdn.geo}}",
          "region": "{{cdn.region}}",
          "location": "{{cdn.location}}",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
 {% endfor %}

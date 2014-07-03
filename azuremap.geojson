@@ -8,13 +8,16 @@
       {
          "type": "Point",
          "coordinates": [ -84.3911132812, 33.7483100891 ]
-      },
+        },
       "properties":
       {
          "geo": "United States",
          "region": "Atlanta",
          "location": "Atlanta, GA",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
    {
@@ -24,13 +27,16 @@
       {
          "type": "Point",
          "coordinates": [ -122.329452515, 47.6035690308 ]
-      },
+        },
       "properties":
       {
          "geo": "United States",
          "region": "Seattle",
          "location": "Seattle, WA",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
    {
@@ -40,13 +46,16 @@
       {
          "type": "Point",
          "coordinates": [ 4.86653995514, 52.3306999207 ]
-      },
+        },
       "properties":
       {
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "Amsterdam, Netherlands",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
    {
@@ -56,13 +65,16 @@
       {
          "type": "Point",
          "coordinates": [ 8.68340969086, 50.1120796204 ]
-      },
+        },
       "properties":
       {
          "geo": "Europe",
          "region": "Frankfurt",
          "location": "Frankfurt, Germany",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
    {
@@ -72,13 +84,16 @@
       {
          "type": "Point",
          "coordinates": [ 9.19277000427, 45.4519996643 ]
-      },
+        },
       "properties":
       {
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "Milan, Italy",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
    {
@@ -88,13 +103,16 @@
       {
          "type": "Point",
          "coordinates": [ -0.127210006118, 51.5064201355 ]
-      },
+        },
       "properties":
       {
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "London, England",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
    {
@@ -104,13 +122,16 @@
       {
          "type": "Point",
          "coordinates": [ -3.70577001572, 40.4202804565 ]
-      },
+        },
       "properties":
       {
          "geo": "Europe",
          "region": "Amsterdam",
          "location": "Madrid, Spain",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
    {
@@ -120,13 +141,16 @@
       {
          "type": "Point",
          "coordinates": [ 2.3412001133, 48.8569297791 ]
-      },
+        },
       "properties":
       {
          "geo": "Europe",
          "region": "Paris",
          "location": "Paris, France",
-         "CDN": "CDN at this location"
+         "cdn": "CDN at this location"
+         ,
+         "fillColor": "#eeffee",
+         "fillOpacity": 0.8
       }
    },
 
