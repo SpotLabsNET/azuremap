@@ -1,3 +1,10 @@
 [
-    { "Geo" : "United States", "Region" : "Atlanta", "Location": "Atlanta, GA" }
+    { "Geo" : "United States", "Region" : "Atlanta", "Location": "Atlanta, GA" },
+    { "Geo" : "United States", "Region" : "Seattle", "Location": "Seattle, WA" },
+    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "Amsterdam, Netherlands" },
+    { "Geo" : "Europe", "Region" : "Frankfurt", "Location": "Frankfurt, Germany" },
+    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "Milan, Italy" },
+    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "London, England" },
+    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "Madrid, Spain" },
+    { "Geo" : "Europe", "Region" : "Paris", "Location": "Paris, France" }
 ]

@@ -1,6 +1,25 @@
 {
    "type": "FeatureCollection",
    "features": [
+{% for cdn in cdns %}
+   {
+      "type": "Feature",
+      "id": "{{cdn.region}}",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ {{cdn.longitude}}, {{cdn.latitude}} ]
+      },
+      "properties":
+      {
+         "geo": "{{cdn.geo}}",
+         "region": "{{cdn.region}}",
+         "location": "{{cdn.location}}",
+         "CDN": "CDN at this location"
+      }
+   },
+{% endfor %}
+
 {% for r in regions %}
    {
       "type": "Feature",

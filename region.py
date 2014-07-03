@@ -32,3 +32,14 @@ class Region:
     def geocode(self):
         return geocode.geocode(self.location)
 
+
+class CDN:
+    def __init__(self, geo, region, location):
+        self.geo = geo
+        self.region = region
+        self.location = location
+        self.latitude, self.longitude = self.geocode()
+
+    def geocode(self):
+        return geocode.geocode(self.location)
+

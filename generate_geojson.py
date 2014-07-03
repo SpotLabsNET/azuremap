@@ -19,6 +19,9 @@ import region
 # The names of Regions and Geos are mostly GUESSES while pre-production.
 #
 
+##
+## REGIONS (which all include a CDN)
+## 
 def region_hook(d):
     return region.Region(d['Geo'], d['Region'], d['Location'], d['Failover Region'], d['Status'])
 
@@ -36,10 +39,32 @@ for r in regions:
 
 print("there are %d regions and %d failover_regions" % (len(regions), len(failover_regions)))
 
+
+##
+## CDN ONLY (don't double-list CDN nodes that match existing data center REGION - for now)
+##
+def cdn_hook(d):
+    return region.CDN(d['Geo'], d['Region'], d['Location'])
+
+with open('cdn_meta.json') as cdn_meta_file:
+    cdns = json.load(cdn_meta_file, object_hook=cdn_hook)
+
+# spin through the regions to figure out the region => failover_region pairs
+for cdn in cdns:
+    if not cdn.region == regions[0].region:
+        print "[hello we have a match] %s " % cdn.region
+
+
+print("there are %d CDNs" % (len(cdns)))
+
+### 
+### Build the GeoJSON map
+###
+
 # normally we'd use a "./templates" folder, but we only have a single template in top-level folder
 env = Environment(loader=FileSystemLoader("."), trim_blocks=True)
 template = env.get_template("azuremap.geojson.jinja-template")
-regionsGeoJSON = template.render(regions=regions, failover_regions=failover_regions)
+regionsGeoJSON = template.render(regions=regions, failover_regions=failover_regions, cdns=cdns)
 
 # write out local file
 print("[writing] azuremap.geojson")
