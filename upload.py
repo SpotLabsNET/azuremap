@@ -32,7 +32,7 @@ storage_container_name = 'apps'
 blob_service.create_container(storage_container_name)
 blob_service.set_container_acl(storage_container_name, x_ms_blob_public_access='container')
 
-for file_name in [r'bingmap-geojson-display.html', r'azuremap.bingmap-geojson-display.js']:
+for file_name in [r'bingmap-geojson-display.html', r'bingmap-geojson-display.js']:
 	myblob = open(r'../azuremap.js/' + file_name, 'r').read()
 	blob_name = file_name
 	blob_service.put_blob(storage_container_name, blob_name, myblob, x_ms_blob_type='BlockBlob')
