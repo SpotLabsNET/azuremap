@@ -333,7 +333,7 @@
       {
          "geo": "Asia",
          "region": "Asia Pacific East",
-         "location": "Batam",
+         "location": "Batam, Indonesia",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
@@ -381,7 +381,7 @@
       {
          "geo": "Asia",
          "region": "Asia Pacific East",
-         "location": "Kaohsiung",
+         "location": "Kaohsiung, Taiwan",
          "cdn": "CDN only (not a full Azure region)"
       }
    },

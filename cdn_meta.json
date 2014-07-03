@@ -22,10 +22,10 @@
     { "Geo" : "Europe", "Region" : "Europe West", "Location": "Paris, France" },
 
 
-    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Batam" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Batam, Indonesia" },
     { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Hong Kong, China" },
     { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Jakarta, Indonesia" },
-    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Kaohsiung" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Kaohsiung, Taiwan" },
     { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Singapore" },
     { "Geo" : "Asia", "Region" : "Asia Pacific Southeast", "Location": "Melbourne, Australia" },
     { "Geo" : "Asia", "Region" : "Asia Pacific Southeast", "Location": "Sydney, Australia" },
