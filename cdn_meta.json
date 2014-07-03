@@ -1,10 +1,34 @@
 [
-    { "Geo" : "United States", "Region" : "Atlanta", "Location": "Atlanta, GA" },
-    { "Geo" : "United States", "Region" : "Seattle", "Location": "Seattle, WA" },
-    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "Amsterdam, Netherlands" },
-    { "Geo" : "Europe", "Region" : "Frankfurt", "Location": "Frankfurt, Germany" },
-    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "Milan, Italy" },
-    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "London, England" },
-    { "Geo" : "Europe", "Region" : "Amsterdam", "Location": "Madrid, Spain" },
-    { "Geo" : "Europe", "Region" : "Paris", "Location": "Paris, France" }
+    { "Geo" : "United States", "Region" : "US East", "Location": "Atlanta, GA" },
+    { "Geo" : "United States", "Region" : "US East", "Location": "Atlanta, GA" },
+    { "Geo" : "United States", "Region" : "US East", "Location": "Atlanta, GA" },
+    { "Geo" : "United States", "Region" : "US East", "Location": "Atlanta, GA" },
+    { "Geo" : "United States", "Region" : "US North Central", "Location": "Chicago, IL" },
+    { "Geo" : "United States", "Region" : "US South Central", "Location": "Dallas, TX" },
+    { "Geo" : "United States", "Region" : "US West", "Location": "Los Angeles, CA" },
+    { "Geo" : "United States", "Region" : "US West", "Location": "San Jose, CA" },
+    { "Geo" : "United States", "Region" : "US West", "Location": "Seattle, WA" },
+
+    { "Geo" : "Europe", "Region" : "Europe North", "Location": "Copenhagen, Denmark" },
+    { "Geo" : "Europe", "Region" : "Europe North", "Location": "Helsinki, Finland" },
+    { "Geo" : "Europe", "Region" : "Europe North", "Location": "Stockholm, Sweden" },
+    { "Geo" : "Europe", "Region" : "Europe North", "Location": "Vienna, Austria" },
+    { "Geo" : "Europe", "Region" : "Europe North", "Location": "Warsaw, Poland" },
+    { "Geo" : "Europe", "Region" : "Europe West", "Location": "Amsterdam, Netherlands" },
+    { "Geo" : "Europe", "Region" : "Europe West", "Location": "Frankfurt, Germany" },
+    { "Geo" : "Europe", "Region" : "Europe West", "Location": "Milan, Italy" },
+    { "Geo" : "Europe", "Region" : "Europe West", "Location": "London, England" },
+    { "Geo" : "Europe", "Region" : "Europe West", "Location": "Madrid, Spain" },
+    { "Geo" : "Europe", "Region" : "Europe West", "Location": "Paris, France" },
+
+
+    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Batam" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Hong Kong, China" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Jakarta, Indonesia" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Kaohsiung" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific East", "Location": "Singapore" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific Southeast", "Location": "Melbourne, Australia" },
+    { "Geo" : "Asia", "Region" : "Asia Pacific Southeast", "Location": "Sydney, Australia" },
+    { "Geo" : "Asia", "Region" : "Japan East", "Location": "Tokyo, Japan" },
+    { "Geo" : "Asia", "Region" : "Japan West", "Location": "Osaka, Japan" }
 ]

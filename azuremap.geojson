@@ -3,7 +3,7 @@
    "features": [
    {
       "type": "Feature",
-      "id": "Atlanta",
+      "id": "US East",
       "geometry":
       {
          "type": "Point",
@@ -12,14 +12,126 @@
       "properties":
       {
          "geo": "United States",
-         "region": "Atlanta",
+         "region": "US East",
          "location": "Atlanta, GA",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
       "type": "Feature",
-      "id": "Seattle",
+      "id": "US East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -84.3911132812, 33.7483100891 ]
+        },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US East",
+         "location": "Atlanta, GA",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -84.3911132812, 33.7483100891 ]
+        },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US East",
+         "location": "Atlanta, GA",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -84.3911132812, 33.7483100891 ]
+        },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US East",
+         "location": "Atlanta, GA",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US North Central",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -87.6324462891, 41.8842506409 ]
+        },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US North Central",
+         "location": "Chicago, IL",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US South Central",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -96.7954025269, 32.7781486511 ]
+        },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US South Central",
+         "location": "Dallas, TX",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US West",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -118.245323181, 34.0534896851 ]
+        },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US West",
+         "location": "Los Angeles, CA",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US West",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -121.885566711, 37.3385810852 ]
+        },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US West",
+         "location": "San Jose, CA",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US West",
       "geometry":
       {
          "type": "Point",
@@ -28,14 +140,94 @@
       "properties":
       {
          "geo": "United States",
-         "region": "Seattle",
+         "region": "US West",
          "location": "Seattle, WA",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
       "type": "Feature",
-      "id": "Amsterdam",
+      "id": "Europe North",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 12.5349302292, 55.7132606506 ]
+        },
+      "properties":
+      {
+         "geo": "Europe",
+         "region": "Europe North",
+         "location": "Copenhagen, Denmark",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Europe North",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 24.89909935, 60.2080001831 ]
+        },
+      "properties":
+      {
+         "geo": "Europe",
+         "region": "Europe North",
+         "location": "Helsinki, Finland",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Europe North",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 18.0326004028, 59.3525009155 ]
+        },
+      "properties":
+      {
+         "geo": "Europe",
+         "region": "Europe North",
+         "location": "Stockholm, Sweden",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Europe North",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 16.3778209686, 48.2084274292 ]
+        },
+      "properties":
+      {
+         "geo": "Europe",
+         "region": "Europe North",
+         "location": "Vienna, Austria",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Europe North",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 21.0062503815, 52.2287483215 ]
+        },
+      "properties":
+      {
+         "geo": "Europe",
+         "region": "Europe North",
+         "location": "Warsaw, Poland",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Europe West",
       "geometry":
       {
          "type": "Point",
@@ -44,14 +236,14 @@
       "properties":
       {
          "geo": "Europe",
-         "region": "Amsterdam",
+         "region": "Europe West",
          "location": "Amsterdam, Netherlands",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
       "type": "Feature",
-      "id": "Frankfurt",
+      "id": "Europe West",
       "geometry":
       {
          "type": "Point",
@@ -60,14 +252,14 @@
       "properties":
       {
          "geo": "Europe",
-         "region": "Frankfurt",
+         "region": "Europe West",
          "location": "Frankfurt, Germany",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
       "type": "Feature",
-      "id": "Amsterdam",
+      "id": "Europe West",
       "geometry":
       {
          "type": "Point",
@@ -76,30 +268,30 @@
       "properties":
       {
          "geo": "Europe",
-         "region": "Amsterdam",
+         "region": "Europe West",
          "location": "Milan, Italy",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
       "type": "Feature",
-      "id": "Amsterdam",
+      "id": "Europe West",
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ -84.0886764526, 37.1468009949 ]
+         "coordinates": [ -0.127210006118, 51.5064201355 ]
         },
       "properties":
       {
          "geo": "Europe",
-         "region": "Amsterdam",
+         "region": "Europe West",
          "location": "London, England",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
       "type": "Feature",
-      "id": "Amsterdam",
+      "id": "Europe West",
       "geometry":
       {
          "type": "Point",
@@ -108,14 +300,14 @@
       "properties":
       {
          "geo": "Europe",
-         "region": "Amsterdam",
+         "region": "Europe West",
          "location": "Madrid, Spain",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
    {
       "type": "Feature",
-      "id": "Paris",
+      "id": "Europe West",
       "geometry":
       {
          "type": "Point",
@@ -124,8 +316,152 @@
       "properties":
       {
          "geo": "Europe",
-         "region": "Paris",
+         "region": "Europe West",
          "location": "Paris, France",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 104.034416199, 1.03879451752 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Asia Pacific East",
+         "location": "Batam",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 114.186965942, 22.3361568451 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Asia Pacific East",
+         "location": "Hong Kong, China",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 106.827522278, -6.17149019241 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Asia Pacific East",
+         "location": "Jakarta, Indonesia",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 120.312263489, 22.6201400757 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Asia Pacific East",
+         "location": "Kaohsiung",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 103.820533752, 1.32199585438 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Asia Pacific East",
+         "location": "Singapore",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific Southeast",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 144.977996826, -37.8242988586 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Asia Pacific Southeast",
+         "location": "Melbourne, Australia",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Asia Pacific Southeast",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 151.20300293, -33.8740005493 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Asia Pacific Southeast",
+         "location": "Sydney, Australia",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Japan East",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 139.808944702, 35.6832084656 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Japan East",
+         "location": "Tokyo, Japan",
+         "cdn": "CDN only (not a full Azure region)"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "Japan West",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ 135.512908936, 34.677520752 ]
+        },
+      "properties":
+      {
+         "geo": "Asia",
+         "region": "Japan West",
+         "location": "Osaka, Japan",
          "cdn": "CDN only (not a full Azure region)"
       }
    },
