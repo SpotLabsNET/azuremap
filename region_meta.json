@@ -3,8 +3,8 @@
     { "Geo" : "Asia Pacific", "Region": "Asia Pacific Southeast", "Location": "Singapore", "Failover Region" : "Asia Pacific East", "Status" : "Production" },
     { "Geo" : "Asia Pacific", "Region": "Shanghai China", "Location": "Shanghai China", "Failover Region" : "Beijing China", "Status" : "Production" },
     { "Geo" : "Asia Pacific", "Region": "Beijing China", "Location": "Beijing, China", "Failover Region" : "Shanghai China", "Status" : "Production" },
-    { "Geo" : "Australia", "Region": "Australia East", "Location": "Sydney, New South Wales, Australia", "Failover Region" : "Australia SE", "Status" : "Announced" },
-    { "Geo" : "Australia", "Region": "Australia SE", "Location": "Melbourne, Victoria, Australia", "Failover Region" : "Australia East", "Status" : "Announced" },
+    { "Geo" : "Australia", "Region": "Australia East", "Location": "Sydney, New South Wales, Australia", "Failover Region" : "Australia SE", "Status" : "Production" },
+    { "Geo" : "Australia", "Region": "Australia SE", "Location": "Melbourne, Victoria, Australia", "Failover Region" : "Australia East", "Status" : "Production" },
     { "Geo" : "South America", "Region": "Brazil South", "Location": "Brazil", "Failover Region" : "US South Central", "Status" : "Preview" },
     { "Geo" : "Europe", "Region": "Europe West", "Location": "Amsterdam, Netherlands", "Failover Region" : "Europe North", "Status" : "Production" },
     { "Geo" : "Europe", "Region": "Europe North", "Location": "Dublin, Ireland", "Failover Region" : "Europe West", "Status" : "Production" },
@@ -15,5 +15,5 @@
     { "Geo" : "United States", "Region": "US East", "Location": "Bristow, Virginia, USA", "Failover Region" : "US West", "Status" : "Production" },
     { "Geo" : "United States", "Region": "US West", "Location": "San Francisco, California, USA", "Failover Region" : "US East", "Status" : "Production" },
     { "Geo" : "United States", "Region": "US Gov-Iowa", "Location": "Iowa, USA", "Failover Region" : "US Gov-Virginia", "Status" : "Preview" },
-    { "Geo" : "United States", "Region": "US Gov-Virginia", "Location": "Virginia, USA", "Failover Region" : "US Gov-Iowa", "Status" : "Preview" }
+    { "Geo" : "United States", "Region": "US Gov-Virginia", "Location": "Virginia, USA", "Failover Region" : "US Gov-Iowa", "Status" : "Production" }
 ]

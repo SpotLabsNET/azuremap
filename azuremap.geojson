@@ -43,7 +43,7 @@
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ 121.474700928, 31.2551593781 ]
+         "coordinates": [ 121.516136169, 31.2241458893 ]
       },
       "properties":
       {
@@ -88,7 +88,7 @@
          "location": "Sydney, New South Wales, Australia",
          "failover_region": "Australia SE",
          "scope": "All Windows Azure Services",
-         "status": "Announced"
+         "status": "Production"
       }
    },
    {
@@ -97,7 +97,7 @@
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ 144.955001831, -37.8132019043 ]
+         "coordinates": [ 144.977996826, -37.8242988586 ]
       },
       "properties":
       {
@@ -106,7 +106,7 @@
          "location": "Melbourne, Victoria, Australia",
          "failover_region": "Australia East",
          "scope": "All Windows Azure Services",
-         "status": "Announced"
+         "status": "Production"
       }
    },
    {
@@ -133,7 +133,7 @@
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ 4.86433982849, 52.3306999207 ]
+         "coordinates": [ 4.86653995514, 52.3306999207 ]
       },
       "properties":
       {
@@ -151,7 +151,7 @@
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ -6.24827003479, 53.3480682373 ]
+         "coordinates": [ -6.2488899231, 53.3330993652 ]
       },
       "properties":
       {
@@ -295,7 +295,7 @@
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ -78.6515426636, 37.5088043213 ]
+         "coordinates": [ -78.6979446411, 37.5128211975 ]
       },
       "properties":
       {
@@ -304,7 +304,7 @@
          "location": "Virginia, USA",
          "failover_region": "US Gov-Iowa",
          "scope": "All Windows Azure Services",
-         "status": "Preview"
+         "status": "Production"
       }
    },
 
@@ -349,7 +349,7 @@
       {
          "type": "LineString",
          "coordinates": [
-            [ 121.474700928, 31.2551593781 ],
+            [ 121.516136169, 31.2241458893 ],
             [ 116.387649536, 39.9065704346 ]
          ]
       },
@@ -367,7 +367,7 @@
          "type": "LineString",
          "coordinates": [
             [ 116.387649536, 39.9065704346 ],
-            [ 121.474700928, 31.2551593781 ]
+            [ 121.516136169, 31.2241458893 ]
          ]
       },
       "properties":
@@ -384,7 +384,7 @@
          "type": "LineString",
          "coordinates": [
             [ 151.20300293, -33.8740005493 ],
-            [ 144.955001831, -37.8132019043 ]
+            [ 144.977996826, -37.8242988586 ]
          ]
       },
       "properties":
@@ -400,7 +400,7 @@
       {
          "type": "LineString",
          "coordinates": [
-            [ 144.955001831, -37.8132019043 ],
+            [ 144.977996826, -37.8242988586 ],
             [ 151.20300293, -33.8740005493 ]
          ]
       },
@@ -434,8 +434,8 @@
       {
          "type": "LineString",
          "coordinates": [
-            [ 4.86433982849, 52.3306999207 ],
-            [ -6.24827003479, 53.3480682373 ]
+            [ 4.86653995514, 52.3306999207 ],
+            [ -6.2488899231, 53.3330993652 ]
          ]
       },
       "properties":
@@ -451,8 +451,8 @@
       {
          "type": "LineString",
          "coordinates": [
-            [ -6.24827003479, 53.3480682373 ],
-            [ 4.86433982849, 52.3306999207 ]
+            [ -6.2488899231, 53.3330993652 ],
+            [ 4.86653995514, 52.3306999207 ]
          ]
       },
       "properties":
@@ -571,7 +571,7 @@
          "type": "LineString",
          "coordinates": [
             [ -91.5265274048, 41.6578216553 ],
-            [ -78.6515426636, 37.5088043213 ]
+            [ -78.6979446411, 37.5128211975 ]
          ]
       },
       "properties":
@@ -587,7 +587,7 @@
       {
          "type": "LineString",
          "coordinates": [
-            [ -78.6515426636, 37.5088043213 ],
+            [ -78.6979446411, 37.5128211975 ],
             [ -91.5265274048, 41.6578216553 ]
          ]
       },
