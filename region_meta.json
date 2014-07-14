@@ -11,8 +11,10 @@
     { "Geo" : "Japan", "Region": "Japan East", "Location": "Saitama, Japan", "Failover Region" : "Japan West", "Status" : "Production" },
     { "Geo" : "Japan", "Region": "Japan West", "Location": "Osaka, Japan", "Failover Region" : "Japan East", "Status" : "Production" },
     { "Geo" : "United States", "Region": "US North Central", "Location": "Chicago, IL, USA", "Failover Region" : "US South Central", "Status" : "Production" },
-    { "Geo" : "United States", "Region": "US South Central", "Location": "San Antonio, TX, USA", "Failover Region" : "US North Central", "Status" : "Production" },
+    { "Geo" : "United States", "Region": "US North Central", "Location": "Chicago, IL, USA", "Failover Region" : "US South Central", "Status" : "Production" },
+    { "Geo" : "United States", "Region": "US Central", "Location": "Iowa, USA", "Failover Region" : "US East 2", "Status" : "Production" },
     { "Geo" : "United States", "Region": "US East", "Location": "Bristow, Virginia, USA", "Failover Region" : "US West", "Status" : "Production" },
+    { "Geo" : "United States", "Region": "US East 2", "Location": "Virginia, USA", "Failover Region" : "US Centra, "Status" : "Preview" },
     { "Geo" : "United States", "Region": "US West", "Location": "San Francisco, California, USA", "Failover Region" : "US East", "Status" : "Production" },
     { "Geo" : "United States", "Region": "US Gov-Iowa", "Location": "Iowa, USA", "Failover Region" : "US Gov-Virginia", "Status" : "Preview" },
     { "Geo" : "United States", "Region": "US Gov-Virginia", "Location": "Virginia, USA", "Failover Region" : "US Gov-Iowa", "Status" : "Production" }
