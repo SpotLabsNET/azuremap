@@ -684,18 +684,36 @@
    },
    {
       "type": "Feature",
-      "id": "US South Central",
+      "id": "US North Central",
       "geometry":
       {
          "type": "Point",
-         "coordinates": [ -98.4946136475, 29.4245796204 ]
+         "coordinates": [ -87.6324462891, 41.8842506409 ]
       },
       "properties":
       {
          "geo": "United States",
-         "region": "US South Central",
-         "location": "San Antonio, TX, USA",
-         "failover_region": "US North Central",
+         "region": "US North Central",
+         "location": "Chicago, IL, USA",
+         "failover_region": "US South Central",
+         "scope": "All Windows Azure Services",
+         "status": "Production"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US Central",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -91.5265274048, 41.6578216553 ]
+      },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US Central",
+         "location": "Iowa, USA",
+         "failover_region": "US East 2",
          "scope": "All Windows Azure Services",
          "status": "Production"
       }
@@ -716,6 +734,24 @@
          "failover_region": "US West",
          "scope": "All Windows Azure Services",
          "status": "Production"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US East 2",
+      "geometry":
+      {
+         "type": "Point",
+         "coordinates": [ -78.6979446411, 37.5128211975 ]
+      },
+      "properties":
+      {
+         "geo": "United States",
+         "region": "US East 2",
+         "location": "Virginia, USA",
+         "failover_region": "US Central",
+         "scope": "All Windows Azure Services",
+         "status": "Preview"
       }
    },
    {
@@ -877,23 +913,6 @@
    },
    {
       "type": "Feature",
-      "id": "Brazil South",
-      "geometry":
-      {
-         "type": "LineString",
-         "coordinates": [
-            [ -52.9731178284, -10.8104515076 ],
-            [ -98.4946136475, 29.4245796204 ]
-         ]
-      },
-      "properties":
-      {
-         "region": "Brazil South",
-         "failover_region": "US South Central"
-      }
-   },
-   {
-      "type": "Feature",
       "id": "Europe West",
       "geometry":
       {
@@ -962,36 +981,19 @@
    },
    {
       "type": "Feature",
-      "id": "US North Central",
+      "id": "US Central",
       "geometry":
       {
          "type": "LineString",
          "coordinates": [
-            [ -87.6324462891, 41.8842506409 ],
-            [ -98.4946136475, 29.4245796204 ]
+            [ -91.5265274048, 41.6578216553 ],
+            [ -78.6979446411, 37.5128211975 ]
          ]
       },
       "properties":
       {
-         "region": "US North Central",
-         "failover_region": "US South Central"
-      }
-   },
-   {
-      "type": "Feature",
-      "id": "US South Central",
-      "geometry":
-      {
-         "type": "LineString",
-         "coordinates": [
-            [ -98.4946136475, 29.4245796204 ],
-            [ -87.6324462891, 41.8842506409 ]
-         ]
-      },
-      "properties":
-      {
-         "region": "US South Central",
-         "failover_region": "US North Central"
+         "region": "US Central",
+         "failover_region": "US East 2"
       }
    },
    {
@@ -1009,6 +1011,23 @@
       {
          "region": "US East",
          "failover_region": "US West"
+      }
+   },
+   {
+      "type": "Feature",
+      "id": "US East 2",
+      "geometry":
+      {
+         "type": "LineString",
+         "coordinates": [
+            [ -78.6979446411, 37.5128211975 ],
+            [ -91.5265274048, 41.6578216553 ]
+         ]
+      },
+      "properties":
+      {
+         "region": "US East 2",
+         "failover_region": "US Central"
       }
    },
    {
